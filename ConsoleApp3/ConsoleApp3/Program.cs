@@ -1,6 +1,3 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-
 internal class Program
 {
     private static void Main(string[] args)
@@ -18,8 +15,8 @@ internal class Program
         Console.WriteLine(bigNumber);
         // Console.WriteLine(long.MaxValue);
         // Console.WriteLine(long.MinValue);
-        
-        string textNegative ="-55.2";
+
+        string textNegative = "-55.2";
 
         double negative = Convert.ToDouble(textNegative);
 
@@ -33,7 +30,7 @@ internal class Program
         // Console.WriteLine(float.MaxValue);
         // Console.WriteLine(float.MinValue);
 
-        string textMoney ="14.99";
+        string textMoney = "14.99";
         decimal money = Convert.ToDecimal(textMoney);
         Console.WriteLine(money);
         // Console.WriteLine(decimal.MaxValue);
