@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "C#: ConsoleApp5",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/ConsoleApp1/ConsoleApp5.csproj",
+            "launchConfigurationId": "TargetFramework=;ConsoleApp5"
+        }
+    ]
+}
